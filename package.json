@@ -1,0 +1,36 @@
+{
+  "name": "emu-algify",
+  "description": "Use Ecmarkup's <emu-alg> elements in your HTML",
+  "keywords": [
+    "ecmarkup",
+    "emu-alg",
+    "specs",
+    "ecmascript",
+    "html",
+    "markup",
+    "markdown"
+  ],
+  "version": "1.0.0-pre",
+  "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
+  "license": "WTFPL",
+  "repository": "domenic/emu-algify",
+  "main": "lib/emu-algify.js",
+  "bin": "bin/emu-algify.js",
+  "files": [
+    "lib/",
+    "bin/"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "ecmarkup": "^2.8.3",
+    "get-stream": "^1.1.0",
+    "jsdom": "^7.2.1",
+    "pn": "^1.0.0",
+    "yargs": "^3.31.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.6.0"
+  }
+}
