@@ -26,11 +26,14 @@
   "dependencies": {
     "ecmarkup": "^2.8.3",
     "get-stream": "^1.1.0",
-    "jsdom": "^7.2.1",
+    "jsdom": "^5.0.1",
     "pn": "^1.0.0",
     "yargs": "^3.31.0"
   },
   "devDependencies": {
     "eslint": "^1.6.0"
+  },
+  "_dependencyComments": {
+    "jsdom": "stick with the old version to match Ecmarkup"
   }
 }
