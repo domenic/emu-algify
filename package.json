@@ -24,9 +24,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "ecmarkup": "^2.8.3",
+    "ecmarkup": "^3.2.3",
     "get-stream": "^2.2.0",
-    "jsdom": "^7.2.1",
+    "jsdom": "^9.0.0",
     "pn": "^1.0.0",
     "yargs": "^4.7.0"
   },
