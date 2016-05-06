@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 /* eslint-disable no-console */
+/* eslint-disable no-process-exit */
 'use strict';
 const getStream = require('get-stream');
 const yargs = require('yargs');

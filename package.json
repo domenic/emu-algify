@@ -31,7 +31,7 @@
     "yargs": "^4.7.0"
   },
   "devDependencies": {
-    "eslint": "^1.6.0"
+    "eslint": "^2.9.0"
   },
   "_dependencyComments": {
     "jsdom": "stick with the old version to match Ecmarkup"
