@@ -24,16 +24,13 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "ecmarkup": "^2.8.3",
+    "ecmarkup": "^3.2.4",
     "get-stream": "^2.2.0",
-    "jsdom": "^5.0.1",
+    "jsdom": "^9.0.0",
     "pn": "^1.0.0",
     "yargs": "^4.7.0"
   },
   "devDependencies": {
     "eslint": "^2.9.0"
-  },
-  "_dependencyComments": {
-    "jsdom": "stick with the old version to match Ecmarkup"
   }
 }
