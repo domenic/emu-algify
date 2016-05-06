@@ -7,7 +7,7 @@ const emuAlgify = require('..');
 const packageJson = require('../package.json');
 
 const argv = yargs
-  .usage(`${packageJson.description}\n\n${packageJson.name} input.html output.html [--throwing-indicators]`)
+  .usage(`${packageJson.description}\n\n${packageJson.name} [--throwing-indicators] < input.html > output.html`)
   .option('t', {
     alias: 'throwing-indicators',
     type: 'boolean',
