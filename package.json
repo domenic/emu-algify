@@ -25,10 +25,10 @@
   },
   "dependencies": {
     "ecmarkup": "^2.8.3",
-    "get-stream": "^1.1.0",
+    "get-stream": "^2.2.0",
     "jsdom": "^7.2.1",
     "pn": "^1.0.0",
-    "yargs": "^3.31.0"
+    "yargs": "^4.7.0"
   },
   "devDependencies": {
     "eslint": "^1.6.0"

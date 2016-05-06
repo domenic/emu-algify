@@ -13,8 +13,8 @@ const argv = yargs
     type: 'boolean',
     describe: 'Add throws/nothrow indicators to headings'
   })
-  .addHelpOpt('help')
-  .version(packageJson.version, 'version')
+  .help()
+  .version()
   .argv;
 
 getStream(process.stdin)
