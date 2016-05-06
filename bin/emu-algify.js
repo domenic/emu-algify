@@ -20,4 +20,7 @@ const argv = yargs
 getStream(process.stdin)
   .then(input => emuAlgify(input, { throwingIndicators: argv.throwingIndicators }))
   .then(output => console.log(output))
-  .catch(e => console.error(e.stack));
+  .catch(e => {
+    console.error(e.stack);
+    process.exit(1);
+  });
