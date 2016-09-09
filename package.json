@@ -24,7 +24,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "ecmarkup": "^3.2.4",
+    "ecmarkup": "3.3.2",
     "get-stream": "^2.2.0",
     "jsdom": "^9.0.0",
     "pn": "^1.0.0",
@@ -32,5 +32,8 @@
   },
   "devDependencies": {
     "eslint": "^2.9.0"
+  },
+  "_dependencyComments": {
+    "ecmarkup": "We must pin since we are using private APIs. See https://github.com/bterlson/ecmarkup/issues/87"
   }
 }
