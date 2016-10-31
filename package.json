@@ -10,7 +10,7 @@
     "markup",
     "markdown"
   ],
-  "version": "2.0.1",
+  "version": "2.1.0",
   "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
   "license": "WTFPL",
   "repository": "domenic/emu-algify",
